@@ -8,12 +8,16 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 public class httpresonpse implements ServerHttpResponse {
+
+    private String name;
+    private Integer age;
     public httpresonpse() {
         super();
     }
 
     @Override
     public int hashCode() {
+
         return super.hashCode();
     }
 
